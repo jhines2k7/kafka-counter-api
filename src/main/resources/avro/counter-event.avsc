@@ -1,0 +1,10 @@
+{
+    "type": "record",
+    "namespace": "com.jhinesconsulting",
+    "name": "CounterEvent",
+    "doc": "Avro schema for our Event Sourced Counter application",
+    "fields": [
+        { "name": "action", "type": "string", "doc": "Event type" },
+        { "name": "amount", "type": "int", "doc": "Amount to increment or decrement the counter" }
+    ]
+}
